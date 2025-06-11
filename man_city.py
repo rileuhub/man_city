@@ -27,10 +27,22 @@ while menu_choice != 'Z':
     menu_choice = input('Welcome to the Manchester City Premier League 24/25 season database\n\n'
                         'Type the letter for the information you want:\n'
                         'A: All information about each player\n'
-                        'B: Goals and shots from strikers\n'
-                        'C: Saves from goal keepers\n'
-                        'Z: Exit\n\nType option here ')
+                        'B: Goals from players with atleast one\n'
+                        'C: Goals and shots from strikers\n'
+                        'D: Saves from goal keepers\n'
+                        'E: appearences and nationality\n'
+                        'F: stats for players under 30\n'
+                        'Z: Exit\n\nType option here: ')
     menu_choice = menu_choice.upper()
     if menu_choice == 'A':
         print_query('all')
-    if
+    if menu_choice == 'B':
+        print_query('all goals')
+    if menu_choice == 'C':
+        print_query('strikers g/s') 
+    if menu_choice == 'D':
+        print_query('goalkeeper saves')
+    if menu_choice == 'E':
+        print_query('apps and nationality')
+    if menu_choice == 'F':
+        print_query('under 30 stats')
