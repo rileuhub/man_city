@@ -25,7 +25,7 @@ def print_query(view_name:str):
 menu_choice =''
 while menu_choice != 'Z':
     menu_choice = input('Welcome to the Manchester City Premier League 24/25 season database\n\n'
-                        'Type the letter for the information you want:\n'
+                        'Type the letter for the information you want from players that have appeared at a game this season:\n'
                         'A: All information about each player\n'
                         'B: Goals from players with atleast one\n'
                         'C: Goals and shots from strikers\n'
