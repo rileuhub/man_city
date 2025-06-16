@@ -30,8 +30,10 @@ while menu_choice != 'Z':
                         'B: Goals from players with atleast one\n'
                         'C: Goals and shots from strikers\n'
                         'D: Saves from goal keepers\n'
-                        'E: appearences and nationality\n'
-                        'F: stats for players under 30\n'
+                        'E: Appearences and where they are from\n'
+                        'F: Stats for players under 30\n'
+                        'G: Midfielder contribution\n'
+                        'H: '
                         'Z: Exit\n\nType option here: ')
     menu_choice = menu_choice.upper()
     if menu_choice == 'A':
@@ -46,3 +48,5 @@ while menu_choice != 'Z':
         print_query('apps and nationality')
     if menu_choice == 'F':
         print_query('under 30 stats')
+    if menu_choice == 'G':
+        print_query('midfielder contribution')
